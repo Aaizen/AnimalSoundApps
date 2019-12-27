@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tugas_mobile_programming">MOBILE PROGRAMMING TASKS</string>
+    <string name="binatang_buas">WILD</string>
+    <string name="binatang_peliharaan">PET</string>
+</resources>

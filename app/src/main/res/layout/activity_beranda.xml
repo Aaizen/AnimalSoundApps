@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".beranda">
+
+    <TextView
+        android:id="@+id/teks1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tugas_mobile_programming"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/holo_blue_dark"/>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_below="@id/teks1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/unissula"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/peliharaan"
+        android:layout_below="@id/logo"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:textSize="22sp"
+        android:text="@string/binatang_peliharaan"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded"/>
+    <Button
+        android:id="@+id/buass"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/peliharaan"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:textSize="22sp"
+        android:text="@string/binatang_buas"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded"/>
+
+
+</RelativeLayout>
